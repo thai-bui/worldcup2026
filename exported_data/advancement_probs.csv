@@ -1,0 +1,287 @@
+"team_id","country_name","round","appearances","probability"
+1,"Algeria","Champion",177,1.77
+1,"Algeria","Final",373,3.73
+1,"Algeria","SF",803,8.03
+1,"Algeria","QF",1664,16.64
+1,"Algeria","R16",3341,33.41
+1,"Algeria","R32",6653,66.53
+2,"Argentina","Champion",621,6.21
+2,"Argentina","Final",1105,11.05
+2,"Argentina","SF",1898,18.98
+2,"Argentina","QF",3226,32.26
+2,"Argentina","R16",5161,51.61
+2,"Argentina","R32",8310,83.1
+3,"Australia","Champion",165,1.65
+3,"Australia","Final",333,3.33
+3,"Australia","SF",754,7.54
+3,"Australia","QF",1661,16.61
+3,"Australia","R16",3503,35.03
+3,"Australia","R32",6800,68
+4,"Austria","Champion",183,1.83
+4,"Austria","Final",450,4.5
+4,"Austria","SF",952,9.52
+4,"Austria","QF",1954,19.54
+4,"Austria","R16",3697,36.97
+4,"Austria","R32",6998,69.98
+5,"Belgium","Champion",303,3.03
+5,"Belgium","Final",617,6.17
+5,"Belgium","SF",1214,12.14
+5,"Belgium","QF",2413,24.13
+5,"Belgium","R16",4594,45.94
+5,"Belgium","R32",8187,81.87
+6,"Bosnia and Herzegovina","Champion",8,0.08
+6,"Bosnia and Herzegovina","Final",28,0.28
+6,"Bosnia and Herzegovina","SF",117,1.17
+6,"Bosnia and Herzegovina","QF",385,3.85
+6,"Bosnia and Herzegovina","R16",1503,15.03
+6,"Bosnia and Herzegovina","R32",4928,49.28
+7,"Brazil","Champion",340,3.4
+7,"Brazil","Final",679,6.79
+7,"Brazil","SF",1291,12.91
+7,"Brazil","QF",2418,24.18
+7,"Brazil","R16",4406,44.06
+7,"Brazil","R32",8088,80.88
+8,"Cabo Verde","Champion",3,0.03
+8,"Cabo Verde","Final",9,0.09
+8,"Cabo Verde","SF",66,0.66
+8,"Cabo Verde","QF",236,2.36
+8,"Cabo Verde","R16",885,8.85
+8,"Cabo Verde","R32",3435,34.35
+9,"Canada","Champion",178,1.78
+9,"Canada","Final",431,4.31
+9,"Canada","SF",957,9.57
+9,"Canada","QF",2034,20.34
+9,"Canada","R16",4267,42.67
+9,"Canada","R32",8507,85.07
+10,"Colombia","Champion",257,2.57
+10,"Colombia","Final",539,5.39
+10,"Colombia","SF",1099,10.99
+10,"Colombia","QF",2124,21.24
+10,"Colombia","R16",3957,39.57
+10,"Colombia","R32",7503,75.03
+11,"Congo DR","Champion",48,0.48
+11,"Congo DR","Final",150,1.5
+11,"Congo DR","SF",383,3.83
+11,"Congo DR","QF",938,9.38
+11,"Congo DR","R16",2207,22.07
+11,"Congo DR","R32",5317,53.17
+12,"Croatia","Champion",290,2.9
+12,"Croatia","Final",607,6.07
+12,"Croatia","SF",1235,12.35
+12,"Croatia","QF",2286,22.86
+12,"Croatia","R16",4336,43.36
+12,"Croatia","R32",8096,80.96
+13,"Curaçao","Final",4,0.04
+13,"Curaçao","SF",12,0.12
+13,"Curaçao","QF",88,0.88
+13,"Curaçao","R16",461,4.61
+13,"Curaçao","R32",2365,23.65
+14,"Czechia","Champion",135,1.35
+14,"Czechia","Final",293,2.93
+14,"Czechia","SF",709,7.09
+14,"Czechia","QF",1657,16.57
+14,"Czechia","R16",3720,37.2
+14,"Czechia","R32",7167,71.67
+15,"Ecuador","Champion",202,2.02
+15,"Ecuador","Final",444,4.44
+15,"Ecuador","SF",906,9.06
+15,"Ecuador","QF",1905,19.05
+15,"Ecuador","R16",4047,40.47
+15,"Ecuador","R32",8104,81.04
+16,"Egypt","Champion",76,0.76
+16,"Egypt","Final",171,1.71
+16,"Egypt","SF",430,4.3
+16,"Egypt","QF",1113,11.13
+16,"Egypt","R16",2842,28.42
+16,"Egypt","R32",6280,62.8
+17,"England","Champion",646,6.46
+17,"England","Final",1160,11.6
+17,"England","SF",1921,19.21
+17,"England","QF",3240,32.4
+17,"England","R16",5378,53.78
+17,"England","R32",8812,88.12
+18,"France","Champion",601,6.01
+18,"France","Final",1062,10.62
+18,"France","SF",1900,19
+18,"France","QF",3150,31.5
+18,"France","R16",5190,51.9
+18,"France","R32",8295,82.95
+19,"Germany","Champion",505,5.05
+19,"Germany","Final",926,9.26
+19,"Germany","SF",1677,16.77
+19,"Germany","QF",2912,29.12
+19,"Germany","R16",5256,52.56
+19,"Germany","R32",8908,89.08
+20,"Ghana","Champion",5,0.05
+20,"Ghana","Final",22,0.22
+20,"Ghana","SF",80,0.8
+20,"Ghana","QF",279,2.79
+20,"Ghana","R16",962,9.62
+20,"Ghana","R32",3473,34.73
+21,"Haiti","Champion",3,0.03
+21,"Haiti","Final",26,0.26
+21,"Haiti","SF",87,0.87
+21,"Haiti","QF",353,3.53
+21,"Haiti","R16",1175,11.75
+21,"Haiti","R32",3796,37.96
+22,"Iran","Champion",134,1.34
+22,"Iran","Final",303,3.03
+22,"Iran","SF",693,6.93
+22,"Iran","QF",1612,16.12
+22,"Iran","R16",3565,35.65
+22,"Iran","R32",7276,72.76
+23,"Iraq","Champion",12,0.12
+23,"Iraq","Final",35,0.35
+23,"Iraq","SF",138,1.38
+23,"Iraq","QF",430,4.3
+23,"Iraq","R16",1297,12.97
+23,"Iraq","R32",3661,36.61
+24,"Ivory Coast","Champion",83,0.83
+24,"Ivory Coast","Final",210,2.1
+24,"Ivory Coast","SF",521,5.21
+24,"Ivory Coast","QF",1287,12.87
+24,"Ivory Coast","R16",3035,30.35
+24,"Ivory Coast","R32",7040,70.4
+25,"Japan","Champion",325,3.25
+25,"Japan","Final",671,6.71
+25,"Japan","SF",1285,12.85
+25,"Japan","QF",2432,24.32
+25,"Japan","R16",4417,44.17
+25,"Japan","R32",8033,80.33
+26,"Jordan","Champion",77,0.77
+26,"Jordan","Final",173,1.73
+26,"Jordan","SF",465,4.65
+26,"Jordan","QF",1107,11.07
+26,"Jordan","R16",2482,24.82
+26,"Jordan","R32",5562,55.62
+27,"Mexico","Champion",281,2.81
+27,"Mexico","Final",607,6.07
+27,"Mexico","SF",1203,12.03
+27,"Mexico","QF",2439,24.39
+27,"Mexico","R16",4791,47.91
+27,"Mexico","R32",8100,81
+28,"Morocco","Champion",308,3.08
+28,"Morocco","Final",598,5.98
+28,"Morocco","SF",1207,12.07
+28,"Morocco","QF",2314,23.14
+28,"Morocco","R16",4338,43.38
+28,"Morocco","R32",8145,81.45
+29,"Netherlands","Champion",413,4.13
+29,"Netherlands","Final",772,7.72
+29,"Netherlands","SF",1423,14.23
+29,"Netherlands","QF",2653,26.53
+29,"Netherlands","R16",4709,47.09
+29,"Netherlands","R32",8183,81.83
+30,"New Zealand","Champion",23,0.23
+30,"New Zealand","Final",81,0.81
+30,"New Zealand","SF",213,2.13
+30,"New Zealand","QF",614,6.14
+30,"New Zealand","R16",1764,17.64
+30,"New Zealand","R32",4849,48.49
+31,"Norway","Champion",368,3.68
+31,"Norway","Final",715,7.15
+31,"Norway","SF",1354,13.54
+31,"Norway","QF",2501,25.01
+31,"Norway","R16",4438,44.38
+31,"Norway","R32",7742,77.42
+32,"Panama","Champion",48,0.48
+32,"Panama","Final",144,1.44
+32,"Panama","SF",367,3.67
+32,"Panama","QF",980,9.8
+32,"Panama","R16",2462,24.62
+32,"Panama","R32",5890,58.9
+33,"Paraguay","Champion",89,0.89
+33,"Paraguay","Final",235,2.35
+33,"Paraguay","SF",577,5.77
+33,"Paraguay","QF",1356,13.56
+33,"Paraguay","R16",3126,31.26
+33,"Paraguay","R32",6318,63.18
+34,"Portugal","Champion",432,4.32
+34,"Portugal","Final",810,8.1
+34,"Portugal","SF",1501,15.01
+34,"Portugal","QF",2694,26.94
+34,"Portugal","R16",4663,46.63
+34,"Portugal","R32",8150,81.5
+35,"Qatar","Final",4,0.04
+35,"Qatar","SF",25,0.25
+35,"Qatar","QF",124,1.24
+35,"Qatar","R16",666,6.66
+35,"Qatar","R32",3091,30.91
+36,"Saudi Arabia","Champion",12,0.12
+36,"Saudi Arabia","Final",57,0.57
+36,"Saudi Arabia","SF",192,1.92
+36,"Saudi Arabia","QF",572,5.72
+36,"Saudi Arabia","R16",1720,17.2
+36,"Saudi Arabia","R32",5058,50.58
+37,"Scotland","Champion",105,1.05
+37,"Scotland","Final",243,2.43
+37,"Scotland","SF",582,5.82
+37,"Scotland","QF",1415,14.15
+37,"Scotland","R16",3078,30.78
+37,"Scotland","R32",6816,68.16
+38,"Senegal","Champion",331,3.31
+38,"Senegal","Final",669,6.69
+38,"Senegal","SF",1314,13.14
+38,"Senegal","QF",2441,24.41
+38,"Senegal","R16",4384,43.84
+38,"Senegal","R32",7665,76.65
+39,"South Africa","Champion",5,0.05
+39,"South Africa","Final",26,0.26
+39,"South Africa","SF",108,1.08
+39,"South Africa","QF",477,4.77
+39,"South Africa","R16",1613,16.13
+39,"South Africa","R32",4332,43.32
+40,"South Korea","Champion",110,1.1
+40,"South Korea","Final",264,2.64
+40,"South Korea","SF",674,6.74
+40,"South Korea","QF",1613,16.13
+40,"South Korea","R16",3603,36.03
+40,"South Korea","R32",6995,69.95
+41,"Spain","Champion",975,9.75
+41,"Spain","Final",1515,15.15
+41,"Spain","SF",2382,23.82
+41,"Spain","QF",3729,37.29
+41,"Spain","R16",5757,57.57
+41,"Spain","R32",9226,92.26
+42,"Sweden","Champion",57,0.57
+42,"Sweden","Final",141,1.41
+42,"Sweden","SF",407,4.07
+42,"Sweden","QF",1017,10.17
+42,"Sweden","R16",2415,24.15
+42,"Sweden","R32",5804,58.04
+43,"Switzerland","Champion",318,3.18
+43,"Switzerland","Final",607,6.07
+43,"Switzerland","SF",1246,12.46
+43,"Switzerland","QF",2445,24.45
+43,"Switzerland","R16",4783,47.83
+43,"Switzerland","R32",8808,88.08
+44,"Tunisia","Champion",23,0.23
+44,"Tunisia","Final",91,0.91
+44,"Tunisia","SF",251,2.51
+44,"Tunisia","QF",696,6.96
+44,"Tunisia","R16",1776,17.76
+44,"Tunisia","R32",4816,48.16
+45,"Türkiye","Champion",262,2.62
+45,"Türkiye","Final",579,5.79
+45,"Türkiye","SF",1155,11.55
+45,"Türkiye","QF",2271,22.71
+45,"Türkiye","R16",4274,42.74
+45,"Türkiye","R32",7657,76.57
+46,"Uruguay","Champion",231,2.31
+46,"Uruguay","Final",476,4.76
+46,"Uruguay","SF",1001,10.01
+46,"Uruguay","QF",1971,19.71
+46,"Uruguay","R16",3907,39.07
+46,"Uruguay","R32",7971,79.71
+47,"USA","Champion",156,1.56
+47,"USA","Final",339,3.39
+47,"USA","SF",728,7.28
+47,"USA","QF",1586,15.86
+47,"USA","R16",3352,33.52
+47,"USA","R32",6747,67.47
+48,"Uzbekistan","Champion",76,0.76
+48,"Uzbekistan","Final",206,2.06
+48,"Uzbekistan","SF",497,4.97
+48,"Uzbekistan","QF",1188,11.88
+48,"Uzbekistan","R16",2697,26.97
+48,"Uzbekistan","R32",6043,60.43

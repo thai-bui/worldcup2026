@@ -1,0 +1,105 @@
+match_id,home_team_name,away_team_name,match_label
+1,Mexico,South Africa,Group A
+2,South Korea,Czechia,Group A
+3,Canada,Bosnia and Herzegovina,Group B
+4,USA,Paraguay,Group D
+5,Qatar,Switzerland,Group B
+6,Brazil,Morocco,Group C
+7,Haiti,Scotland,Group C
+8,Australia,Türkiye,Group D
+9,Germany,Curaçao,Group E
+10,Netherlands,Japan,Group F
+11,Ivory Coast,Ecuador,Group E
+12,Sweden,Tunisia,Group F
+13,Spain,Cabo Verde,Group H
+14,Belgium,Egypt,Group G
+15,Saudi Arabia,Uruguay,Group H
+16,Iran,New Zealand,Group G
+17,France,Senegal,Group I
+18,Iraq,Norway,Group I
+19,Argentina,Algeria,Group J
+20,Austria,Jordan,Group J
+21,Portugal,Congo DR,Group K
+22,England,Croatia,Group L
+23,Ghana,Panama,Group L
+24,Uzbekistan,Colombia,Group K
+25,Czechia,South Africa,Group A
+26,Switzerland,Bosnia and Herzegovina,Group B
+27,Canada,Qatar,Group B
+28,Mexico,South Korea,Group A
+29,USA,Australia,Group D
+30,Scotland,Morocco,Group C
+31,Brazil,Haiti,Group C
+32,Türkiye,Paraguay,Group D
+33,Netherlands,Sweden,Group F
+34,Germany,Ivory Coast,Group E
+35,Ecuador,Curaçao,Group E
+36,Tunisia,Japan,Group F
+37,Spain,Saudi Arabia,Group H
+38,Belgium,Iran,Group G
+39,Uruguay,Cabo Verde,Group H
+40,New Zealand,Egypt,Group G
+41,Argentina,Austria,Group J
+42,France,Iraq,Group I
+43,Norway,Senegal,Group I
+44,Jordan,Algeria,Group J
+45,Portugal,Uzbekistan,Group K
+46,England,Ghana,Group L
+47,Panama,Croatia,Group L
+48,Colombia,Congo DR,Group K
+49,Switzerland,Canada,Group B
+50,Bosnia and Herzegovina,Qatar,Group B
+51,Scotland,Brazil,Group C
+52,Morocco,Haiti,Group C
+53,Czechia,Mexico,Group A
+54,South Africa,South Korea,Group A
+55,Curaçao,Ivory Coast,Group E
+56,Ecuador,Germany,Group E
+57,Japan,Sweden,Group F
+58,Tunisia,Netherlands,Group F
+59,Türkiye,USA,Group D
+60,Paraguay,Australia,Group D
+61,Norway,France,Group I
+62,Senegal,Iraq,Group I
+63,Cabo Verde,Saudi Arabia,Group H
+64,Uruguay,Spain,Group H
+65,Egypt,Iran,Group G
+66,New Zealand,Belgium,Group G
+67,Panama,England,Group L
+68,Croatia,Ghana,Group L
+69,Colombia,Portugal,Group K
+70,Congo DR,Uzbekistan,Group K
+71,Algeria,Austria,Group J
+72,Argentina,Jordan,Group J
+73,,,2A vs 2B
+74,,,1E vs 3ABCDF
+75,,,1F vs 2C
+76,,,1C vs 2F
+77,,,1I vs 3CDFGH
+78,,,2E vs 2I
+79,,,1A vs 3CEFHI
+80,,,1L vs 3EHIJK
+81,,,1D vs 3BEFIJ
+82,,,1G vs 3AEHIJ
+83,,,2K vs 2L
+84,,,1H vs 2J
+85,,,1B vs 3EFGIJ
+86,,,1J vs 2H
+87,,,1K vs 3DEIJL
+88,,,2D vs 2G
+89,,,W74 vs W77
+90,,,W73 vs W75
+91,,,W76 vs W78
+92,,,W79 vs W80
+93,,,W83 vs W84
+94,,,W81 vs W82
+95,,,W86 vs W88
+96,,,W85 vs W87
+97,,,W89 vs W90
+98,,,W93 vs W94
+99,,,W91 vs W92
+100,,,W95 vs W96
+101,,,W97 vs W98
+102,,,W99 vs W100
+103,,,RU101 vs RU102
+104,,,W101 vs W102

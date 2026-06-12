@@ -1,0 +1,49 @@
+team_id,country_name,fifa_rank,elo_rating,confederation
+1,Algeria,28,1772,CAF
+2,Argentina,3,2115,CONMEBOL
+3,Australia,27,1777,AFC
+4,Austria,23,1830,UEFA
+5,Belgium,9,1894,UEFA
+6,Bosnia and Herzegovina,64,1595,UEFA
+7,Brazil,6,1991,CONMEBOL
+8,Cape Verde,68,1578,CAF
+9,Canada,30,1788,CONCACAF
+10,Colombia,13,1982,CONMEBOL
+11,Congo DR,45,1652,CAF
+12,Croatia,11,1912,UEFA
+13,Curaçao,83,1433,CONCACAF
+14,Czechia,41,1740,UEFA
+15,Ecuador,24,1938,CONMEBOL
+16,Egypt,29,1696,CAF
+17,England,4,2024,UEFA
+18,France,1,2063,UEFA
+19,Germany,10,1932,UEFA
+20,Ghana,73,1510,CAF
+21,Haiti,82,1548,CONCACAF
+22,Iran,21,1772,AFC
+23,Iraq,57,1607,AFC
+24,Ivory Coast,34,1695,CAF
+25,Japan,18,1906,AFC
+26,Jordan,63,1680,AFC
+27,Mexico,15,1875,CONCACAF
+28,Morocco,7,1827,CAF
+29,Netherlands,8,1948,UEFA
+30,New Zealand,85,1562,OFC
+31,Norway,31,1914,UEFA
+32,Panama,33,1730,CONCACAF
+33,Paraguay,40,1834,CONMEBOL
+34,Portugal,5,1989,UEFA
+35,Qatar,55,1421,AFC
+36,Saudi Arabia,61,1576,AFC
+37,Scotland,43,1782,UEFA
+38,Senegal,14,1860,CAF
+39,South Africa,60,1517,CAF
+40,South Korea,26,1758,AFC
+41,Spain,2,2157,UEFA
+42,Sweden,38,1712,UEFA
+43,Switzerland,19,1891,UEFA
+44,Tunisia,46,1628,CAF
+45,Türkiye,22,1911,UEFA
+46,Uruguay,17,1892,CONMEBOL
+47,USA,16,1726,CONCACAF
+48,Uzbekistan,50,1714,AFC
