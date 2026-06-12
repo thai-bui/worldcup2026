@@ -1,0 +1,5 @@
+*.sql linguist-detectable=true
+
+*.csv linguist-vendored=true
+exported_data/* linguist-vendored=true
+raw_data/* linguist-vendored=true
