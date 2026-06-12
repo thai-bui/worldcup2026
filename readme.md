@@ -1,4 +1,8 @@
-# FIFA World Cup 2026 — Monte Carlo Simulation
+# FIFA World Cup 2026 - Monte Carlo Simulation
+
+## Live Dashboards
+
+Explore the interactive Tableau dashboards: [Tableau Public link](https://public.tableau.com/views/WorldCup2026_17812411216780/WorldCupPowerRankings?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Project Overview
 
@@ -8,12 +12,14 @@ The model scores all 48 teams using five factors: Elo rating, recent competitive
 
 The stack is intentionally separated: PostgreSQL for data cleaning and transformation, R for the simulation engine, and Tableau for visualization. This separation reflects how these tools are used in practice, with each layer doing what it does best.
 
+For a detailed breakdown of all findings, see [ANALYSIS.md](documentation/ANALYSIS.md).
+
 ---
 
 ## Folder Structure
 
 ```
-world_cup_2026/
+worldcup2026/
 ├── documentation/       # Methodology writeup, analysis findings
 ├── exported_data/       # CSV outputs from R simulation
 ├── r/                   # R scripts (data load, simulation, aggregation, export)
@@ -30,13 +36,13 @@ All data was collected manually or sourced from publicly available datasets.
 
 | File | Source | Notes |
 |------|--------|-------|
-| `teams.csv` | [Elo Ratings](https://eloratings.net/), [FIFA Rankings](https://inside.fifa.com/fifa-world-ranking/men) | Manually compiled — team_id assigned alphabetically |
+| `teams.csv` | [Elo Ratings](https://eloratings.net/), [FIFA Rankings](https://inside.fifa.com/fifa-world-ranking/men) | Manually compiled - team_id assigned alphabetically |
 | `squads.csv` | [ESPN Squad Lists](https://www.espn.com/soccer/story/_/id/48757621/2026-world-cup-squad-lists-players-announced-all-48-teams) | Player and club data for all 48 squads |
 | `top5_leagues_clubs.csv` | Manually compiled from 2025-26 league standings | Premier League, La Liga, Bundesliga, Serie A, Ligue 1 |
-| `matches.csv` | [Manually entered from FIFA's official schedule](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums) | 104 matches — 72 group stage, 32 knockout |
-| `hist_results.csv` | [Kaggle — International football results 1872-2026](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017) | 49,437 international matches |
-| `world_elo_ratings.csv` | [Elo Ratings](https://eloratings.net/) | 242 nations — used for opponent strength in form calculation |
-| `third_place_bracket.csv` | [Wikipedia — 2026 FIFA World Cup knockout stage](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage) | All 495 FIFA third-place bracket combinations |
+| `matches.csv` | [Manually entered from FIFA's official schedule](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums) | 104 matches - 72 group stage, 32 knockout |
+| `hist_results.csv` | [Kaggle - International football results 1872-2026](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017) | 49,437 international matches |
+| `world_elo_ratings.csv` | [Elo Ratings](https://eloratings.net/) | 242 nations - used for opponent strength in form calculation |
+| `third_place_bracket.csv` | [Wikipedia - 2026 FIFA World Cup knockout stage](https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_knockout_stage) | All 495 FIFA third-place bracket combinations |
 
 ---
 
@@ -46,16 +52,16 @@ All data was collected manually or sourced from publicly available datasets.
 | Column | Type | Description |
 |--------|------|-------------|
 | team_id | INT | Primary key, assigned alphabetically |
-| country_name | VARCHAR | Team name — used as join key across tables |
+| country_name | VARCHAR | Team name - used as join key across tables |
 | fifa_rank | INT | FIFA ranking at time of data collection |
 | elo_rating | INT | Elo rating sourced from eloratings.net |
 | confederation | VARCHAR | FIFA confederation (UEFA, CONMEBOL, etc.) |
-| home_advantage | INT | 1 for USA, Canada, Mexico — 0 for all others |
+| home_advantage | INT | 1 for USA, Canada, Mexico - 0 for all others |
 
 ### matches
 | Column | Type | Description |
 |--------|------|-------------|
-| match_id | INT | Primary key — 1-72 group stage, 73-104 knockout |
+| match_id | INT | Primary key - 1-72 group stage, 73-104 knockout |
 | home_team_name | VARCHAR | Home team name |
 | away_team_name | VARCHAR | Away team name |
 | match_label | VARCHAR | Group label or knockout bracket position (e.g. "1A vs 3CDFGH") |
@@ -73,9 +79,9 @@ All data was collected manually or sourced from publicly available datasets.
 | date | DATE | Match date |
 | home_team | VARCHAR | Home team name |
 | away_team | VARCHAR | Away team name |
-| home_score | VARCHAR | Home team score — VARCHAR to handle NA values |
-| away_score | VARCHAR | Away team score — VARCHAR to handle NA values |
-| tournament | VARCHAR | Tournament name — friendlies excluded from form calculation |
+| home_score | VARCHAR | Home team score - VARCHAR to handle NA values |
+| away_score | VARCHAR | Away team score - VARCHAR to handle NA values |
+| tournament | VARCHAR | Tournament name - friendlies excluded from form calculation |
 
 ### world_elo_ratings
 | Column | Type | Description |
@@ -128,4 +134,4 @@ All factors are min-max normalized to 0-1 before weighting. FIFA ranking was con
 - Tiebreakers are resolved randomly, since goal difference not tracked in the simulation.
 - Current Elo ratings used as proxy for historical opponent strength in form calculation.
 - Teams playing mostly weak regional opposition (e.g. Haiti, Jordan) have inflated form scores relative to teams in stronger confederations.
-- Third-place bracket combinations not in the FIFA 495-row table are handled with a random slot assignment fallback, affects a small number of edge case combinations.
+- Third-place bracket combinations not in the FIFA 495-row table are handled with a random slot assignment fallback. This affects a small number of edge case combinations.
