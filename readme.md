@@ -12,7 +12,7 @@ The model scores all 48 teams using five factors: Elo rating, recent competitive
 
 The stack is intentionally separated: PostgreSQL for data cleaning and transformation, R for the simulation engine, and Tableau for visualization. This separation reflects how these tools are used in practice, with each layer doing what it does best.
 
-For a detailed breakdown of all findings, see [ANALYSIS.md](documentation/ANALYSIS.md).
+For a detailed breakdown of all findings, see [ANALYSIS.md](documentation/analysis.md).
 
 ---
 
