@@ -91,19 +91,31 @@ All data was collected manually or sourced from publicly available datasets.
 
 ---
 
-## Composite Score Model
+## Composite Score Model - Establishing the Power Ranking for the Tournament
 
-Each team receives a composite score between 0 and 1, which drives all match outcome probabilities in the simulation.
+Each team receives a composite score between 0 and 1, which drives all match outcome probabilities in the simulation. All factors are min-max normalized to 0-1 before weighting.
 
-| Factor | Weight | Source |
-|--------|--------|--------|
-| Elo rating | 55% | eloratings.net |
-| Recent form | 15% | Last 20 competitive matches |
-| Top 5 league concentration | 15% | % of squad in top 5 European leagues |
-| Club cohesion | 10% | % of squad sharing a club with a teammate |
-| Home advantage | 5% | Host nations only |
+| Factor | Weight | Source | Built in |
+|--------|--------|--------|----------|
+| Elo rating | 55% | eloratings.net | `07_composite_score.sql` |
+| Recent form | 15% | Last 20 competitive matches | `06_teams_recent_performance.sql` |
+| Top 5 league concentration | 15% | % of squad in top 5 European leagues | `03_top5_concentration.sql` |
+| Club cohesion | 10% | % of squad sharing a club with a teammate | `05_squad_cohesion.sql` |
+| Home advantage | 5% | Host nations only | `04_home_advantage.sql` |
 
-All factors are min-max normalized to 0-1 before weighting. FIFA ranking was considered but excluded. FIFA adopted an Elo-based system in 2018, making it highly correlated with the Elo component and redundant.
+**Elo rating (55%)** - the largest weight, reflecting overall historical team strength. Sourced directly from `teams.csv`, normalized in `07_composite_score.sql`.
+
+**Recent form (15%)** - built from each team's last 20 competitive matches (friendlies excluded). `06_teams_recent_performance.sql` calculates `team_recent_form`, joining match results to `world_elo_ratings` to get opponent strength, then `team_form_score` combines average points per game (50%), average goal difference capped at +/-1 (30%), and a win rate weighted by opponent Elo (20%) into a single 0-1 score.
+
+**Top 5 league concentration (15%)** - the percentage of each squad playing in the Premier League, La Liga, Bundesliga, Serie A, or Ligue 1. `03_top5_concentration.sql` flags each player against a list of top 5 league clubs and aggregates to a team-level percentage in `team_top5_concentration`.
+
+**Club cohesion (10%)** - the percentage of each squad that shares a club with at least one teammate on the same national team, as a proxy for tactical familiarity. `05_squad_cohesion.sql` self-joins the squads table to find these pairs and aggregates to `team_cohesion_score`.
+
+**Home advantage (5%)** - a binary flag (1 or 0) applied only to USA, Canada, and Mexico as co-hosts. Added directly to `teams` in `04_home_advantage.sql`.
+
+`07_composite_score.sql` brings all five components together: each is normalized to 0-1 using min-max scaling, then combined into the final `team_composite_score` view using the weights above.
+
+FIFA ranking was considered as a sixth factor but excluded. FIFA adopted an Elo-based system in 2018, making it highly correlated with the Elo component and redundant.
 
 ---
 
